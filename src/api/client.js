@@ -2,67 +2,6 @@
 
 
 
-
-
-
-
-// const API_BASE_URL = "http://localhost:5000/api";
-
-// export const api = {
-//   // Get Invoice Flow Data
-//   async getInvoiceFlow() {
-//     try {
-//       const response = await fetch(`${API_BASE_URL}/invoice-flow`);
-
-//       if (!response.ok) {
-//         throw new Error("Failed to fetch invoice flow data");
-//       }
-
-//       return await response.json();
-//     } catch (error) {
-//       console.error("API Error:", error);
-//       throw error;
-//     }
-//   },
-
-//   // Get Invoice Flow By Month
-//   async getInvoiceFlowByMonth(month) {
-//     try {
-//       const response = await fetch(
-//         `${API_BASE_URL}/invoice-flow?month=${encodeURIComponent(month)}`
-//       );
-
-//       if (!response.ok) {
-//         throw new Error("Failed to fetch month data");
-//       }
-
-//       return await response.json();
-//     } catch (error) {
-//       console.error("API Error:", error);
-//       throw error;
-//     }
-//   },
-
-//   // Refresh Data
-//   async refreshData() {
-//     try {
-//       const response = await fetch(`${API_BASE_URL}/invoice-flow`);
-
-//       if (!response.ok) {
-//         throw new Error("Refresh failed");
-//       }
-
-//       return await response.json();
-//     } catch (error) {
-//       console.error(error);
-//       throw error;
-//     }
-//   },
-// };
-
-
-
-
 const BASE_URL = "http://localhost:5000/api/invoice";
 
 
