@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 
-const BASE_URL = "http://localhost:5000/api/invoice";
+const BASE_URL = "https://bcc-v6gz.onrender.com/api/invoice";
 
 export default function InvoicePage() {
   const [data, setData] = useState([]);
