@@ -2,7 +2,7 @@
 
 
 
-const BASE_URL = "http://localhost:5000/api/invoice";
+const BASE_URL = "https://bcc-v6gz.onrender.com/api/invoice";
 
 
 
@@ -116,7 +116,7 @@ export const deleteInvoice = async (
 
 
 ////////////////login.///
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://bcc-v6gz.onrender.com/api";
 
 export const loginUser = async (data) => {
   const response = await fetch(`${API_URL}/login`, {
